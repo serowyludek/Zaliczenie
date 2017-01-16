@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="lab1" Content="Data rezerwacji" HorizontalAlignment="Left" Height="29" Margin="350,196,0,0" VerticalAlignment="Top" Width="118" />
+        <TextBox x:Name="data" HorizontalAlignment="Left" Height="21" Margin="337,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" />
+        <Button x:Name="dodaj" Content="Dodaj" HorizontalAlignment="Left" Height="24" Margin="362,254,0,0" VerticalAlignment="Top" Width="69" />
+        <Button x:Name="dodre" Content="Dodaj Rezerwację" HorizontalAlignment="Left" Height="23" Margin="22,64,0,0" VerticalAlignment="Top" Width="111" Click="dodre_Click" />
+        <Button x:Name="usunre" Content="Usuń Rezerwację" HorizontalAlignment="Left" Height="22" Margin="22,92,0,0" VerticalAlignment="Top" Width="111" />
+        <Button x:Name="wyczyść" Content="Wyczyść" HorizontalAlignment="Left" Height="24" Margin="22,141,0,0" VerticalAlignment="Top" Width="111" RenderTransformOrigin="0.532,-1" Click="wyczyść_Click" />
+        <Label x:Name="lab5" Content="Imię Gościa" HorizontalAlignment="Left" Height="26" Margin="247,41,0,0" VerticalAlignment="Top" Width="104" RenderTransformOrigin="0.086,0.214" />
+        <Label x:Name="lab4" Content="Nazwisko Gościa" HorizontalAlignment="Left" Height="29" Margin="247,67,0,0" VerticalAlignment="Top" Width="104" RenderTransformOrigin="0.086,0.214" />
+        <Label x:Name="lab3" Content="Nr Pokoju" HorizontalAlignment="Left" VerticalAlignment="Top" Height="27" Width="69" Margin="248,93,0,0" />
+        <Label x:Name="lab2" Content="Cena/dobę" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="77" Margin="248,120,0,0" />
+        <Button x:Name="datarez" Content="Data Rezerwacji" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111" Margin="22,37,0,0" Click="Button_Click" />
+        <TextBox x:Name="imiego" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="351,41,0,0" />
+        <TextBox x:Name="nazwgo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="351,70,0,0" />
+        <TextBox x:Name="nrpo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="351,96,0,0" />
+        <TextBox x:Name="cena" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="351,124,0,0" />
+        <TextBlock x:Name="wynik" HorizontalAlignment="Left" Height="113" Margin="22,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" />
+        <Button x:Name="dod2" Content="Dodaj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="362,164,0,0" Click="dod2_Click" />
+    </Grid>
+</Window>
